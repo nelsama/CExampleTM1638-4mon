@@ -1,0 +1,523 @@
+Modules list:
+-------------
+startup.o:
+    ZEROPAGE          Offs=000000  Size=000006  Align=00001  Fill=0000
+    STARTUP           Offs=000000  Size=000047  Align=00001  Fill=0000
+main.o:
+    CODE              Offs=000000  Size=00018D  Align=00001  Fill=0000
+    RODATA            Offs=000000  Size=000092  Align=00001  Fill=0000
+tm1638.o:
+    CODE              Offs=00018D  Size=000CE9  Align=00001  Fill=0000
+    RODATA            Offs=000092  Size=00009A  Align=00001  Fill=0000
+    BSS               Offs=000000  Size=000001  Align=00001  Fill=0000
+    DATA              Offs=000000  Size=000001  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(add.o):
+    CODE              Offs=000E76  Size=00001C  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(addysp.o):
+    CODE              Offs=000E92  Size=00000E  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(along.o):
+    CODE              Offs=000EA0  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(axlong.o):
+    CODE              Offs=000EAD  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decax1.o):
+    CODE              Offs=000EBA  Size=000007  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decsp1.o):
+    CODE              Offs=000EC1  Size=000009  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decsp2.o):
+    CODE              Offs=000ECA  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decsp3.o):
+    CODE              Offs=000ED7  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decsp4.o):
+    CODE              Offs=000EE4  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(decsp5.o):
+    CODE              Offs=000EF1  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incax1.o):
+    CODE              Offs=000EFE  Size=000007  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incaxy.o):
+    CODE              Offs=000F05  Size=00000B  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp1.o):
+    CODE              Offs=000F10  Size=000007  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp2.o):
+    CODE              Offs=000F17  Size=000016  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp4.o):
+    CODE              Offs=000F2D  Size=000005  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp5.o):
+    CODE              Offs=000F32  Size=000005  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp6.o):
+    CODE              Offs=000F37  Size=000005  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(incsp8.o):
+    CODE              Offs=000F3C  Size=000005  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(jmpvec.o):
+    DATA              Offs=000001  Size=000003  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(land.o):
+    CODE              Offs=000F41  Size=000024  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lcmp.o):
+    CODE              Offs=000F65  Size=00003B  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(ldaxsp.o):
+    CODE              Offs=000FA0  Size=000009  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(ldeaxysp.o):
+    CODE              Offs=000FA9  Size=000013  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(leaaxsp.o):
+    CODE              Offs=000FBC  Size=00000C  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(leq.o):
+    CODE              Offs=000FC8  Size=000006  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lne.o):
+    CODE              Offs=000FCE  Size=000006  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lor.o):
+    CODE              Offs=000FD4  Size=000024  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lpop.o):
+    CODE              Offs=000FF8  Size=000015  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lpush.o):
+    CODE              Offs=00100D  Size=000021  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lshl.o):
+    CODE              Offs=00102E  Size=00001A  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(ltest.o):
+    CODE              Offs=001048  Size=00000F  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(ludiv.o):
+    CODE              Offs=001057  Size=00007A  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(lumod.o):
+    CODE              Offs=0010D1  Size=000019  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(makebool.o):
+    CODE              Offs=0010EA  Size=00002C  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(popptr1.o):
+    CODE              Offs=001116  Size=00000E  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(pusha.o):
+    CODE              Offs=001124  Size=000016  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(pushax.o):
+    CODE              Offs=00113A  Size=00001A  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(pushwsp.o):
+    CODE              Offs=001154  Size=00001C  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(shl.o):
+    CODE              Offs=001170  Size=000033  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(staspidx.o):
+    CODE              Offs=0011A3  Size=000016  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(staxsp.o):
+    CODE              Offs=0011B9  Size=00000B  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(steaxsp.o):
+    CODE              Offs=0011C4  Size=000015  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(subysp.o):
+    CODE              Offs=0011D9  Size=00000D  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(udiv.o):
+    CODE              Offs=0011E6  Size=00004F  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(umod.o):
+    CODE              Offs=001235  Size=000011  Align=00001  Fill=0000
+D:\cc65\lib\none.lib(zeropage.o):
+    ZEROPAGE          Offs=000006  Size=00001A  Align=00001  Fill=0000
+
+
+Segment list:
+-------------
+Name                   Start     End    Size  Align
+----------------------------------------------------
+ZEROPAGE              000020  00003F  000020  00001
+STARTUP               000800  000846  000047  00001
+CODE                  000847  001A8C  001246  00001
+RODATA                001A8D  001BB8  00012C  00001
+DATA                  001BB9  001BBC  000004  00001
+BSS                   001BBD  001BBD  000001  00001
+
+
+Exports list by name:
+---------------------
+__BSS_RUN__               001BBD RLA    __BSS_SIZE__              000001 REA    
+__STARTUP__               000001 REA    _main                     000966 RLA    
+_tm1638_init              0009FA RLA    _tm1638_set_brightness    000FE6 RLA    
+_tm1638_show_text         000DB1 RLA    addysp                    0016DA RLA    
+addysp1                   0016D9 RLA    aslaxy                    0019BE RLA    
+aulong                    0016ED RLA    axulong                   0016FA RLA    
+booleq                    001937 RLA    boolne                    001931 RLA    
+decax1                    001701 RLA    decsp1                    001708 RLA    
+decsp2                    001711 RLA    decsp3                    00171E RLA    
+decsp4                    00172B RLA    decsp5                    001738 RLA    
+getlop                    0018AF RLA    incax1                    001745 RLA    
+incaxy                    00174E RLA    incsp1                    001757 RLA    
+incsp2                    001766 RLA    incsp4                    001774 RLA    
+incsp5                    001779 RLA    incsp6                    00177E RLA    
+incsp8                    001783 RLA    jmpvec                    001BBA RLA    
+ldax0sp                   0017E7 RLA    ldaxysp                   0017E9 RLA    
+ldeax0sp                  0017F0 RLA    ldeaxysp                  0017F2 RLA    
+leaa0sp                   001803 RLA    popax                     00175E RLA    
+popeax                    00183F RLA    popptr1                   00195D RLA    
+ptr1                      00002E RLZ    ptr2                      000030 RLZ    
+ptr3                      000032 RLZ    ptr4                      000034 RLZ    
+pusha                     00196F RLA    pushax                    001985 RLA    
+pusheax                   00185D RLA    pushl0                    001854 RLA    
+pushw0sp                  00199B RLA    pushwysp                  00199D RLA    
+regsave                   00002A RLZ    sp                        000026 RLZ    
+sreg                      000028 RLZ    staspidx                  0019EA RLA    
+stax0sp                   001A00 RLA    staxysp                   001A02 RLA    
+steaxysp                  001A0D RLA    subysp                    001A20 RLA    
+tmp1                      000036 RLZ    tmp3                      000038 RLZ    
+tmp4                      000039 RLZ    tosaddax                  0016BF RLA    
+tosand0ax                 001788 RLA    tosandeax                 00178E RLA    
+toseqeax                  00180F RLA    toslcmp                   0017AC RLA    
+tosneeax                  001815 RLA    tosoreax                  001821 RLA    
+tosshleax                 001875 RLA    tosudiv0ax                00189E RLA    
+tosumod0ax                001918 RLA    tosumoda0                 001A7C RLA    
+udiv16                    001A3E RLA    udiv32                    0018D3 RLA    
+utsteax                   00188F RLA    
+
+
+Exports list by value:
+----------------------
+__BSS_SIZE__              000001 REA    __STARTUP__               000001 REA    
+sp                        000026 RLZ    sreg                      000028 RLZ    
+regsave                   00002A RLZ    ptr1                      00002E RLZ    
+ptr2                      000030 RLZ    ptr3                      000032 RLZ    
+ptr4                      000034 RLZ    tmp1                      000036 RLZ    
+tmp3                      000038 RLZ    tmp4                      000039 RLZ    
+_main                     000966 RLA    _tm1638_init              0009FA RLA    
+_tm1638_show_text         000DB1 RLA    _tm1638_set_brightness    000FE6 RLA    
+tosaddax                  0016BF RLA    addysp1                   0016D9 RLA    
+addysp                    0016DA RLA    aulong                    0016ED RLA    
+axulong                   0016FA RLA    decax1                    001701 RLA    
+decsp1                    001708 RLA    decsp2                    001711 RLA    
+decsp3                    00171E RLA    decsp4                    00172B RLA    
+decsp5                    001738 RLA    incax1                    001745 RLA    
+incaxy                    00174E RLA    incsp1                    001757 RLA    
+popax                     00175E RLA    incsp2                    001766 RLA    
+incsp4                    001774 RLA    incsp5                    001779 RLA    
+incsp6                    00177E RLA    incsp8                    001783 RLA    
+tosand0ax                 001788 RLA    tosandeax                 00178E RLA    
+toslcmp                   0017AC RLA    ldax0sp                   0017E7 RLA    
+ldaxysp                   0017E9 RLA    ldeax0sp                  0017F0 RLA    
+ldeaxysp                  0017F2 RLA    leaa0sp                   001803 RLA    
+toseqeax                  00180F RLA    tosneeax                  001815 RLA    
+tosoreax                  001821 RLA    popeax                    00183F RLA    
+pushl0                    001854 RLA    pusheax                   00185D RLA    
+tosshleax                 001875 RLA    utsteax                   00188F RLA    
+tosudiv0ax                00189E RLA    getlop                    0018AF RLA    
+udiv32                    0018D3 RLA    tosumod0ax                001918 RLA    
+boolne                    001931 RLA    booleq                    001937 RLA    
+popptr1                   00195D RLA    pusha                     00196F RLA    
+pushax                    001985 RLA    pushw0sp                  00199B RLA    
+pushwysp                  00199D RLA    aslaxy                    0019BE RLA    
+staspidx                  0019EA RLA    stax0sp                   001A00 RLA    
+staxysp                   001A02 RLA    steaxysp                  001A0D RLA    
+subysp                    001A20 RLA    udiv16                    001A3E RLA    
+tosumoda0                 001A7C RLA    jmpvec                    001BBA RLA    
+__BSS_RUN__               001BBD RLA    
+
+
+Imports list:
+-------------
+__BSS_RUN__ ([linker generated]):
+    startup.o                 src\startup.s(12)
+__BSS_SIZE__ ([linker generated]):
+    startup.o                 src\startup.s(12)
+__STARTUP__ (startup.o):
+    main.o                    src\main.s(13)
+_main (main.o):
+    startup.o                 src\startup.s(11)
+_tm1638_init (tm1638.o):
+    main.o                    src\main.s(14)
+_tm1638_set_brightness (tm1638.o):
+    main.o                    src\main.s(16)
+_tm1638_show_text (tm1638.o):
+    main.o                    src\main.s(15)
+addysp (addysp.o):
+    incsp8.o                  runtime/incsp8.s(8)
+    incsp6.o                  runtime/incsp6.s(8)
+    incsp5.o                  runtime/incsp5.s(8)
+    incsp4.o                  runtime/incsp4.s(8)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+addysp1 (addysp.o):
+    ludiv.o                   runtime/ludiv.s(9)
+    lor.o                     runtime/lor.s(9)
+    land.o                    runtime/land.s(9)
+aslaxy (shl.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+aulong (along.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+axulong (axlong.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+booleq (makebool.o):
+    leq.o                     runtime/leq.s(8)
+boolne (makebool.o):
+    lne.o                     runtime/lne.s(8)
+decax1 (decax1.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+decsp1 (decsp1.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+decsp2 (decsp2.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+decsp3 (decsp3.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+decsp4 (decsp4.o):
+    lpush.o                   runtime/lpush.s(12)
+decsp5 (decsp5.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+getlop (ludiv.o):
+    lumod.o                   runtime/lumod.s(9)
+incax1 (incax1.o):
+    main.o                    src\main.s(260)
+incaxy (incaxy.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+incsp1 (incsp1.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+incsp2 (incsp2.o):
+    popptr1.o                 runtime/popptr1.s(8)
+    staspidx.o                runtime/staspidx.s(8)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+incsp4 (incsp4.o):
+    lpop.o                    runtime/lpop.s(9)
+    lcmp.o                    runtime/lcmp.s(9)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+incsp5 (incsp5.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+incsp6 (incsp6.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+incsp8 (incsp8.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+jmpvec (jmpvec.o):
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+ldax0sp (ldaxsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+ldaxysp (ldaxsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+ldeax0sp (ldeaxysp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+ldeaxysp (ldeaxysp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+leaa0sp (leaaxsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+popax (incsp2.o):
+    shl.o                     runtime/shl.s(15)
+popeax (lpop.o):
+    lshl.o                    runtime/lshl.s(15)
+popptr1 (popptr1.o):
+    udiv.o                    runtime/udiv.s(9)
+    umod.o                    runtime/umod.s(8)
+ptr1 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    popptr1.o                 runtime/popptr1.s(9)
+    lcmp.o                    runtime/lcmp.s(10)
+    staspidx.o                runtime/staspidx.s(9)
+    ludiv.o                   runtime/ludiv.s(10)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(11)
+    main.o                    src\main.s(11)
+ptr2 (zeropage.o):
+    lumod.o                   runtime/lumod.s(10)
+    ludiv.o                   runtime/ludiv.s(10)
+ptr3 (zeropage.o):
+    ludiv.o                   runtime/ludiv.s(10)
+ptr4 (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    umod.o                    runtime/umod.s(9)
+    ludiv.o                   runtime/ludiv.s(10)
+pusha (pusha.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+pushax (pushax.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+    main.o                    src\main.s(260)
+pusheax (lpush.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+pushl0 (lpush.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+pushw0sp (pushwsp.o):
+    main.o                    src\main.s(260)
+pushwysp (pushwsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+regsave (zeropage.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(10)
+    main.o                    src\main.s(10)
+sp (zeropage.o):
+    popptr1.o                 runtime/popptr1.s(9)
+    lpop.o                    runtime/lpop.s(10)
+    lcmp.o                    runtime/lcmp.s(10)
+    decsp4.o                  runtime/decsp4.s(8)
+    subysp.o                  runtime/subysp.s(9)
+    steaxsp.o                 runtime/steaxsp.s(8)
+    staxsp.o                  runtime/staxsp.s(8)
+    staspidx.o                runtime/staspidx.s(9)
+    pushwsp.o                 runtime/pushwsp.s(8)
+    pushax.o                  runtime/pushax.s(8)
+    pusha.o                   runtime/pusha.s(8)
+    ludiv.o                   runtime/ludiv.s(10)
+    lpush.o                   runtime/lpush.s(13)
+    lor.o                     runtime/lor.s(10)
+    leaaxsp.o                 runtime/leaaxsp.s(8)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
+    ldaxsp.o                  runtime/ldaxsp.s(8)
+    land.o                    runtime/land.s(10)
+    incsp2.o                  runtime/incsp2.s(8)
+    incsp1.o                  runtime/incsp1.s(8)
+    decsp5.o                  runtime/decsp5.s(8)
+    decsp3.o                  runtime/decsp3.s(8)
+    decsp2.o                  runtime/decsp2.s(8)
+    decsp1.o                  runtime/decsp1.s(8)
+    addysp.o                  runtime/addysp.s(8)
+    add.o                     runtime/add.s(12)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(10)
+    main.o                    src\main.s(10)
+    startup.o                 src\startup.s(13)
+sreg (zeropage.o):
+    udiv.o                    runtime/udiv.s(10)
+    lpop.o                    runtime/lpop.s(10)
+    lcmp.o                    runtime/lcmp.s(10)
+    umod.o                    runtime/umod.s(9)
+    steaxsp.o                 runtime/steaxsp.s(8)
+    lumod.o                   runtime/lumod.s(10)
+    ludiv.o                   runtime/ludiv.s(10)
+    ltest.o                   runtime/ltest.s(8)
+    lshl.o                    runtime/lshl.s(16)
+    lpush.o                   runtime/lpush.s(13)
+    lor.o                     runtime/lor.s(10)
+    ldeaxysp.o                runtime/ldeaxysp.s(12)
+    land.o                    runtime/land.s(10)
+    axlong.o                  runtime/axlong.s(9)
+    along.o                   runtime/along.s(9)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(10)
+staspidx (staspidx.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+stax0sp (staxsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+staxysp (staxsp.o):
+    main.o                    src\main.s(260)
+steaxysp (steaxsp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+subysp (subysp.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    main.o                    src\main.s(260)
+tmp1 (zeropage.o):
+    staspidx.o                runtime/staspidx.s(9)
+    shl.o                     runtime/shl.s(16)
+    ltest.o                   runtime/ltest.s(8)
+    lshl.o                    runtime/lshl.s(16)
+    lor.o                     runtime/lor.s(10)
+    land.o                    runtime/land.s(10)
+    incaxy.o                  runtime/incaxy.s(8)
+    add.o                     runtime/add.s(12)
+tmp3 (zeropage.o):
+    lumod.o                   runtime/lumod.s(10)
+    ludiv.o                   runtime/ludiv.s(10)
+tmp4 (zeropage.o):
+    lumod.o                   runtime/lumod.s(10)
+    ludiv.o                   runtime/ludiv.s(10)
+tosaddax (add.o):
+    main.o                    src\main.s(260)
+tosand0ax (land.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosandeax (land.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+toseqeax (leq.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+toslcmp (lcmp.o):
+    lne.o                     runtime/lne.s(8)
+    leq.o                     runtime/leq.s(8)
+tosneeax (lne.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosoreax (lor.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosshleax (lshl.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosudiv0ax (ludiv.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosumod0ax (lumod.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+tosumoda0 (umod.o):
+    main.o                    src\main.s(260)
+udiv16 (udiv.o):
+    umod.o                    runtime/umod.s(8)
+udiv32 (ludiv.o):
+    lumod.o                   runtime/lumod.s(9)
+utsteax (ltest.o):
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+    tm1638.o                  ../../libs/tm1638-6502-cc65/src/tm1638.s(2120)
+
