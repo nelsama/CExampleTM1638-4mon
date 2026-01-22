@@ -75,6 +75,14 @@ void scroll_text(const char *text, uint16_t delay_ms) {
         pos++;
         if (pos >= len) pos = 0;
         
+        if(rom_uart_rx_ready()) {
+            char c = rom_uart_getc();
+            if(c == 'q' || c == 'Q') {
+                tm1638_clear_display();
+                uart_print("Scroll detenido por usuario.\r\n");
+                break;
+            }
+        }
     }
 }
 
@@ -95,6 +103,7 @@ int main(void) {
     uart_print("  TM1638 HELLO WORLD - Monitor 6502\r\n");
     uart_print("===================================\r\n");
     uart_print("Mostrando texto rotatorio...\r\n\r\n");
+    uart_print("Presione 'q' para salir.\r\n\r\n");
     
     /* Apagar LEDs del hardware (si existen) */
     LEDS = 0xFF;
