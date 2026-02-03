@@ -42,8 +42,7 @@ Tm1638Demo/
 
 - **CC65** instalado en `D:\cc65` (o ajustar ruta en makefile)
 - **Monitor 6502 v2.2.0+** con ROM API en $BF00
-- **Librería TM1638** (incluida en `../../libs/tm1638-6502-cc65`)
-- **SD Card** para transferir el programa (o usar XMODEM)
+- **[tm1638-6502-cc65](https://github.com/nelsama/tm1638-6502-cc65)** (incluida en `../../libs/tm1638-6502-cc65`) - Librería optimizada para controlar el módulo TM1638 en sistemas 6502 con cc65
 
 ## Compilación
 
