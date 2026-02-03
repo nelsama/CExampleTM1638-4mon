@@ -235,6 +235,12 @@ void mi_funcion(void) {
 - [include/romapi.h](../../include/romapi.h) - Documentación completa de ROM API
 - [README.md principal](../../README.md) - Documentación del monitor
 
+## 💖 Apóyame
+
+Si disfrutas de este proyecto, considera apoyarme:
+
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Apóyame-FF5E5B?logo=kofi&logoColor=white&style=for-the-badge)](https://ko-fi.com/nelsonfigueroa2k)
+
 ## Licencia
 
 Este proyecto está licenciado bajo la **GNU General Public License v3.0**.
